@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Roboto:wght@100&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1:'Indie Flower', cursive;
+    --font2:'Roboto', sans-serif;
+    --font3:'Pacifico', cursive;
+    --main-bg-color1:black;
+}
+.max-width-1{
+   max-width: 80vw;
+
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.form-input{
+    padding: 0px 23px;
+    padding-left: unset;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font1);
+    margin: 0 12px;
+}
+.btn{
+    
+    padding: 0 15px;
+    padding-left: unset;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+
+}
+.mx-1{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.btn:hover{
+    color: white;
+    background-color:var(--main-bg-color) ;
+}
+.input-box input,textarea{
+    width: 50vw;
+    margin: 7px;
+    padding: 10px 6px;
+    font-size: 20px;
+    border: 2px solid rgb(185, 177, 162);
+    border-radius: 5px;
+}
+.btn1{
+    padding: 0 15px;
+    padding-left: unset;
+    
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+.btn1 button{
+    margin: 0 8px;
+}
